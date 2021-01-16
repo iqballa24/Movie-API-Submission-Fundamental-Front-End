@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Kanit', sans-serif;
+}
+
+main {
+    padding: 10px;
+}
+
+movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px 5px 25px 40px;
+    font-size: smaller;
+    color: white;
+    background-color: #0c3454;
+    text-align: left;
+}
+
+@media screen and (max-width: 763px){
+    footer {
+        display: none;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 20px;
+    }
+
+    h5{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
